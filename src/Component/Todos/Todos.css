@@ -1,0 +1,35 @@
+.c1 {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  color: #58637b;
+  font-size: 13px;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.insideContainer {
+  border-radius: 10px;
+  display: grid;
+  width: 92%;
+  height: fit-content;
+  padding: 10px 5px 10px 10px;
+  background-color: #ffffff;
+  margin-top: 8px;
+
+}
+.insideContainer > div {
+  margin-top: 8px;
+}
+.icon-bottom {
+  display: flex;
+  flex-direction: row;
+}
+.icon-bottom > * {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.RandomColorBar {
+  width: 20%;
+  height: 10px;
+  border-radius: 11px;
+}
